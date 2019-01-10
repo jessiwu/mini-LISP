@@ -50,7 +50,7 @@ printbool   print-bool
 {logic_and}     { return AND; }
 {logic_or}      { return OR; }
 {logic_not}     { return NOT; }
-{if_stat}            { return IF; }
+{if_stat}       { return IF; }
 {id}            { yylval.ch = strndup(yytext, yyleng); return ID; }
 {separator}     { ; }
 [ ]		        { ; }
