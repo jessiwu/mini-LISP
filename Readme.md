@@ -28,9 +28,9 @@
 >  (define x 5)
 
 # Environment
-### ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-38-generic x86_64)
-### flex 2.6.4
-### bison (GNU Bison) 3.0.4
+### Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-38-generic x86_64)
+### Flex 2.6.4
+### Bison (GNU Bison) 3.0.4
 ### g++ (Ubuntu 5.5.0-12ubuntu1) 5.5.0
    
 ### Compile Command:
