@@ -14,22 +14,22 @@
 > g++ (Ubuntu 5.5.0-12ubuntu1) 5.5.0
 
 #### how to compile and execute these files
-+ compile the mini.y yacc file: 
+##### 1. compile the mini.y yacc file: 
 > user@ubuntu: yacc -d mini.y
 >
-+ compile the mini.l lex file:
+##### 2. compile the mini.l lex file:
 > user@ubuntu: flex mini.l
 >
-+ list the ouput files:
+##### 3. list the ouput files and check:
 > user@ubuntu: ls
 >
 > mini.l  y.tab.c  y.tab.h  mini.y
 >
-+ compile the executable file with c++ language:
+##### 4. compile the executable file MINI:
 > user@ubuntu: g++ lex.yy.c y.tab.c -o MINI
 
 #### Output Example:
-> user@ubuntu: cat 06_2.lsp 
+> user@ubuntu: cat 06_2.lsp (06_2.lsp is an input .txt file for testing)
 >
 > (define a (* 1 2 3 4))
 >
@@ -37,7 +37,7 @@
 > 
 > (print-num (+ a b))
 >
-> user@ubuntu:~/final/define$ ./MINI < 06_2.lsp 
+> user@ubuntu:~/final/define$ ./MINI < 06_2.lsp  
 >
 > 26
 
