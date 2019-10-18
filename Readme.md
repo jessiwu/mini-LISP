@@ -9,6 +9,10 @@
 #### Bison (GNU Bison) 3.0.4
 #### g++ (Ubuntu 5.5.0-12ubuntu1) 5.5.0
 
+# Files
+#### mini.l: Flex file 
+#### mini.y: Flex file
+
 # Features:
 + 1. Syntax Validation
 > (+ (* 5 2) -) → syntax error
