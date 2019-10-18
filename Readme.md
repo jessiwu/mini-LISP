@@ -4,11 +4,14 @@
 ### - the interpreter is build with Flex & Bison.
 
 # Environment
-### this project was tested and executed under 
-#### Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-38-generic x86_64)
-#### Flex 2.6.4
-#### Bison (GNU Bison) 3.0.4
-#### g++ (Ubuntu 5.5.0-12ubuntu1) 5.5.0
++ this project was tested and executed under 
+> Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-38-generic x86_64)
+
+> Flex 2.6.4
+
+> Bison (GNU Bison) 3.0.4
+
+> g++ (Ubuntu 5.5.0-12ubuntu1) 5.5.0
 
 ### Compile Command:
 + compile the mini.y yacc file: 
