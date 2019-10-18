@@ -4,7 +4,7 @@
 ### - the interpreter is build with Flex & Bison.
 
 # Environment
-+ this project was tested and executed under 
+#### this project was tested and executed under 
 > Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-38-generic x86_64)
 
 > Flex 2.6.4
@@ -13,7 +13,7 @@
 
 > g++ (Ubuntu 5.5.0-12ubuntu1) 5.5.0
 
-### Compile Command:
+#### how to compile and execute these files
 + compile the mini.y yacc file: 
 > user@ubuntu: yacc -d mini.y
 >
@@ -28,7 +28,7 @@
 + compile the executable file with c++ language:
 > user@ubuntu: g++ lex.yy.c y.tab.c -o MINI
 
-### Output Example:
+#### Output Example:
 > user@ubuntu: cat 06_2.lsp 
 >
 > (define a (* 1 2 3 4))
