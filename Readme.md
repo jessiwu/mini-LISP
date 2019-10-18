@@ -10,8 +10,8 @@
 #### g++ (Ubuntu 5.5.0-12ubuntu1) 5.5.0
 
 # Files
-#### mini.l: Flex scanner
-#### mini.y: Bison parser
+#### 1. mini.l: Flex scanner
+#### 2. mini.y: Bison parser
 
 # Features:
 + 1. Syntax Validation
@@ -51,6 +51,7 @@
 >
 + compile the executable file with c++ language:
 > user@ubuntu: g++ lex.yy.c y.tab.c -o MINI
+
 ### Output Example:
 > user@ubuntu: cat 06_2.lsp 
 >
