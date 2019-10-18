@@ -10,8 +10,8 @@
 #### g++ (Ubuntu 5.5.0-12ubuntu1) 5.5.0
 
 # Files
-#### mini.l: Flex file 
-#### mini.y: Flex file
+#### mini.l: Flex scanner
+#### mini.y: Bison parser
 
 # Features:
 + 1. Syntax Validation
